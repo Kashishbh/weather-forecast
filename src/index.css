@@ -1,0 +1,19 @@
+/* Reset default margin and apply a consistent font */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', 'Open Sans', sans-serif;
+  background-color: #000; /* fallback background */
+  color: #fff;
+}
+
+/* Apply smooth font rendering */
+body, input, button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: style for code blocks if you ever use them */
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
